@@ -942,7 +942,7 @@ th {
 
 .dope-navbar-toggler .navbarToggler span {
   position: relative;
-  background-color: #222;
+  background-color: #880355;
   border-radius: 3px;
   display: block;
   height: 2px;
@@ -1199,7 +1199,7 @@ th {
 }
 
 .breakpoint-on .dope-navbar .dope-menu {
-  background-color: #2c2d84;
+  background-color: rgba(0, 0, 0, 0.9);
   position: fixed;
   top: 0;
   left: -310px;
@@ -1968,57 +1968,90 @@ th {
   margin-bottom: 0px !important;
 }
 
-.banner-right img {
+.banner-right .img-thumbnail {
   position: absolute;
   width: 164px;
   height: 164px;
   object-fit: cover;
-  z-index: 1000;
+  z-index: 100;
 }
 
-.banner-right img:nth-child(1) {
+@media (max-width: 768px) {
+  .banner-right .img-thumbnail {
+    z-index: 1;
+  }
+}
+
+@media (max-width: 600px) {
+  .banner-desktop {
+    display: none;
+  }
+
+  .mt-20 {
+    margin-top: 0 !important; 
+  }
+  .mb-20 {
+    margin-bottom: 4rem; 
+  }
+
+  .anime-banner-p {
+    font-size: 21px; 
+  }
+
+  .app-store-btn, .google-play-btn {
+    width: 130px !important;
+  }
+}
+
+@media (min-width: 601px) {
+  .banner-mobile {
+    display: none;
+  }
+}
+
+.banner-right .img-thumbnail:nth-child(1) {
   left: 66.8%;
   top: 20.5%;
   animation: goUp 15s 5s forwards;
 }
 
-.banner-right img:nth-child(2) {
+.banner-right .img-thumbnail:nth-child(2) {
   left: 55.8%;
   top: 26%;
   animation: goUpOne 15s 6s forwards;
 }
 
-.banner-right img:nth-child(3) {
+.banner-right .img-thumbnail:nth-child(3) {
   left: 54.8%;
   top: 44.7%;
   animation: goUpTwo 15s 7s forwards;
 }
 
-.banner-right img:nth-child(4) {
+.banner-right .img-thumbnail:nth-child(4) {
   left: 78.6%;
   top: 18%;
   animation: goUpThree 15s 8s forwards;
 }
 
-.banner-right img:nth-child(5) {
+.banner-right .img-thumbnail:nth-child(5) {
   left: 65.8%;
   top: 37.5%;
   animation: goUpFour 15s 8s forwards;
 }
 
-.banner-right img:nth-child(6) {
+.banner-right .img-thumbnail:nth-child(6) {
   left: 76.8%;
   top: 35%;
   animation: goUpFive 15s 8s forwards;
 }
 
-.banner-right img:nth-child(7) {
+.banner-right .img-thumbnail:nth-child(7) {
   left: 59.8%;
   top: 55%;
   animation: goUpSix 15s 8s forwards;
 }
 
-.banner-right img:nth-child(8) {
+.banner-right .img-thumbnail:nth-child(8) {
   left: 70.8%;
   top: 55%;
   animation: goUpSeven 15s 8s forwards;
@@ -2156,7 +2189,7 @@ th {
 
 @keyframes goUpFive {
   20% {
-    left: 85%;
+    left: 80%;
     top: 31%;
     transform: rotateZ(80deg);
   }
@@ -2208,7 +2241,7 @@ th {
 
 @keyframes goUpSeven {
   20% {
-    left: 88%;
+    left: 80%;
     top: 39%;
     transform: rotateZ(180deg);
   }
@@ -3652,7 +3685,10 @@ th {
 
 /*additional styles*/
 .banner-img {
-  height: 600px !important;
+  object-fit: cover;
+  width: 100%;
+  float: left;
+  /*height: 600px !important;*/
 }
 
 /*@media (max-width: 500px) {
