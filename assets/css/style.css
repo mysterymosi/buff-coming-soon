@@ -1996,6 +1996,10 @@ th {
     margin-bottom: 4rem; 
   }
 
+  .mt-mobile {
+    margin-top: 20px;
+  }
+
   .anime-banner-p {
     font-size: 21px; 
   }
