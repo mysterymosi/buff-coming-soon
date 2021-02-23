@@ -40,8 +40,8 @@ CSS
   #mc_embed_signup .button {
     background: #880355;
     font-weight: 700;
-    border-radius: 30px;
-    margin-left: -25px;
+    /*border-radius: 30px;
+    margin-left: -25px;*/
   }
 
   #mc_embed_signup .button:hover {
@@ -53,9 +53,16 @@ CSS
     height: 50px !important;
   }
 
-  #mc_embed_signup input {
+  #mc_embed_signup input.email {
     height: 50px !important;
-    border-radius: 30px !important;
+    /*border-radius: 30px !important;*/
+    background: rgba(57, 56, 56, 0.22) !important;
+    border: 0 !important;
+  }
+
+  #mc_embed_signup input.email:focus {
+    border-color: #880355 !important;
+    outline: none;
   }
 
   #mc_embed_signup form {
@@ -130,7 +137,7 @@ CSS
           </p>
           <!-- <h1 class="text-uppercase anime-banner-h1 animate__animated animate__fadeInUp">Oja Stores.</h1> -->
           <p class="anime-banner-p animate__animated animate__fadeInUp banner-text">
-            Cinema 2 Home Experience
+            Enjoy the best <br> movie streaming experience.
           </p>
           <!-- <form  class="email-form d-flex justify-content-between">
                 <input type="text" placeholder="Email Address" class="form-control email-input">
@@ -141,7 +148,7 @@ CSS
           <div id="mc_embed_signup" class="animate__animated animate__fadeInUp">
             <form action="https://ojastores.us1.list-manage.com/subscribe/post?u=e3560d4afdff940c60e76fc3b&amp;id=e7b7ab82ee" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
               <div id="mc_embed_signup_scroll email-form d-flex justify-content-between">
-                <label for="mce-EMAIL" class="mt-2 mb-3 ft-15">Get notified when it's released</label>
+                <label for="mce-EMAIL" class="mt-1 mb-3 ft-15">Get notified when it's released</label>
                 <input type="email" value="" name="EMAIL" class="email form-control email-input" id="mce-EMAIL" placeholder="Email address" required>
                 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                 <!-- <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e3560d4afdff940c60e76fc3b_e7b7ab82ee" tabindex="-1" value=""></div> -->
