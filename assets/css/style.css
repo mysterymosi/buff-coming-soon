@@ -401,6 +401,19 @@ th {
   -webkit-transform: translateY(-2px);
 }
 
+.watch-btn {
+  font-size: 18px;
+  background: #000000;
+}
+
+/*.watch-btn:hover {
+  -webkit-box-shadow: 0px 30px 90px rgba(105, 28, 255, 0.14) !important;
+  box-shadow: 0px 30px 90px rgba(105, 28, 255, 0.14) !important;
+  -ms-transform: translateY(-2px);
+  transform: translateY(-2px);
+  -webkit-transform: translateY(-2px);
+}*/
+
 .page-top-banner {
   background: url(../img/shopping.jpg);
   background-size: cover;
@@ -1451,8 +1464,8 @@ th {
   background-size: contain;
 } */
 .banner-section .banner-right img {
-  -webkit-animation: jump 5s linear 0s infinite normal forwards;
-  animation: jump 5s linear 0s infinite normal forwards;
+  /*-webkit-animation: jump 5s linear 0s infinite normal forwards;*/
+  /*animation: jump 5s linear 0s infinite normal forwards;*/
 }
 
 @keyframes jump {
@@ -1980,8 +1993,7 @@ th {
   .banner-right .img-thumbnail {
     z-index: 1;
   }
-
-  .banner-desktop {
+   .banner-desktop {
     display: none;
   }
 
@@ -1990,10 +2002,11 @@ th {
   }
 
   .mt-20 {
-    margin-top: 0 !important; 
+    margin-top: 0 !important;
   }
+
   .mb-20 {
-    margin-bottom: 4rem; 
+    margin-bottom: 4rem;
   }
 
   .mt-mobile {
@@ -2001,10 +2014,11 @@ th {
   }
 
   .anime-banner-p {
-    font-size: 21px; 
+    font-size: 21px;
   }
 
-  .app-store-btn, .google-play-btn {
+  .app-store-btn,
+  .google-play-btn {
     width: 130px !important;
   }
 
@@ -4197,8 +4211,58 @@ th {
   margin-top: 5rem;
 }
 
-.app-store-btn, .google-play-btn {
+.app-store-btn,
+.google-play-btn {
   width: 172px;
+}
+
+
+.about-left .tv-img {
+    z-index: 100;
+} 
+
+.about-left video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 10%;
+    min-height: 10%;
+    width: 93.1%;
+    height: 102%;
+    /*z-index: -3;*/
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+@media (max-width: 768px) {
+    .about-left video {
+        width: 94.4%;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-left video {
+        width: 92.3%;
+    }
+}
+
+@media (max-width: 414px) {
+    .about-left video {
+        width: 91.1%;
+    }
+}
+
+@media (max-width: 375px) {
+    .about-left video {
+        width: 90.8%;
+    }
+}
+
+@media (max-width: 320px) {
+    .about-left video {
+        width: 89.2%;
+    }
 }
 
 @keyframes slide {
