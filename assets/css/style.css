@@ -2057,49 +2057,49 @@ th {
 .banner-right .img-thumbnail:nth-child(1) {
   left: 66.8%;
   top: 20.5%;
-  animation: goUp 15s 5s forwards;
+  animation: goUp 15s 5s forwards infinite;
 }
 
 .banner-right .img-thumbnail:nth-child(2) {
   left: 55.8%;
   top: 26%;
-  animation: goUpOne 15s 6s forwards;
+  animation: goUpOne 15s 6s forwards infinite;
 }
 
 .banner-right .img-thumbnail:nth-child(3) {
   left: 54.8%;
   top: 44.7%;
-  animation: goUpTwo 15s 7s forwards;
+  animation: goUpTwo 15s 7s forwards infinite;
 }
 
 .banner-right .img-thumbnail:nth-child(4) {
   left: 78.6%;
   top: 18%;
-  animation: goUpThree 15s 8s forwards;
+  animation: goUpThree 15s 8s forwards infinite;
 }
 
 .banner-right .img-thumbnail:nth-child(5) {
   left: 65.8%;
   top: 37.5%;
-  animation: goUpFour 15s 8s forwards;
+  animation: goUpFour 15s 8s forwards infinite;
 }
 
 .banner-right .img-thumbnail:nth-child(6) {
   left: 76.8%;
   top: 35%;
-  animation: goUpFive 15s 8s forwards;
+  animation: goUpFive 15s 8s forwards infinite;
 }
 
 .banner-right .img-thumbnail:nth-child(7) {
   left: 59.8%;
   top: 55%;
-  animation: goUpSix 15s 8s forwards;
+  animation: goUpSix 15s 8s forwards infinite;
 }
 
 .banner-right .img-thumbnail:nth-child(8) {
   left: 70.8%;
   top: 55%;
-  animation: goUpSeven 15s 8s forwards;
+  animation: goUpSeven 15s 8s forwards infinite;
 }
 
 @keyframes goUp {
