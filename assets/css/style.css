@@ -4243,31 +4243,37 @@ th {
 
 @media (max-width: 768px) {
     .about-left video {
-        width: 94.4%;
+        width: 83.4%;
+        top: 42.5%;
+        /*width: 94.4%;*/
     }
 }
 
 @media (max-width: 480px) {
     .about-left video {
-        width: 92.3%;
+        width: 86.8%;
+        top: 49%;
     }
 }
 
 @media (max-width: 414px) {
     .about-left video {
-        width: 91.1%;
+        width: 85.5%;
+        top: 50.5%;
     }
 }
 
 @media (max-width: 375px) {
     .about-left video {
-        width: 90.8%;
+        width: 84.5%;
+        top: 51.2%;
     }
 }
 
 @media (max-width: 320px) {
     .about-left video {
-        width: 89.2%;
+        width: 83.2%;
+        top: 52.5%;
     }
 }
 
