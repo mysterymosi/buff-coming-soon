@@ -4261,6 +4261,14 @@ th {
         width: 85.5%;
         top: 50.5%;
     }
+
+    .watch-video {
+      justify-content: center;
+    }
+
+    .watch-video i, .watch-video p {
+      font-size: 30px !important;
+    }
 }
 
 @media (max-width: 375px) {
@@ -4275,6 +4283,18 @@ th {
         width: 83.2%;
         top: 52.5%;
     }
+}
+
+.watch-video i {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 100;
+}
+
+.watch-video p {
+  margin-bottom: 0;
+  font-size: 40px;
+  font-weight: 200;
 }
 
 @keyframes slide {
