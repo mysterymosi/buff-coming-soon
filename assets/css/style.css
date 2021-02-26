@@ -4254,6 +4254,10 @@ th {
         width: 86.8%;
         top: 49%;
     }
+
+    .watch-video {
+      justify-content: center;
+    }
 }
 
 @media (max-width: 414px) {
@@ -4262,14 +4266,11 @@ th {
         top: 50.5%;
     }
 
-    .watch-video {
-      justify-content: center;
-    }
-
     .watch-video i, .watch-video p {
       font-size: 30px !important;
     }
 }
+
 
 @media (max-width: 375px) {
     .about-left video {
