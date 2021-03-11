@@ -1465,10 +1465,15 @@ th {
   margin: 20px 0px;
 }
 
-/* .banner-section .banner-right {
-  background: url(../img/Rectangle-55.png) center no-repeat;
+ .banner-section .banner-mobile {
+  background: url(../img/mobile-backdrop.png) no-repeat;
   background-size: contain;
-} */
+  margin-top: -97px;
+} 
+
+.banner-section .banner-mobile img {
+  padding-top: 28px;
+}
 .banner-section .banner-right img {
   /*-webkit-animation: jump 5s linear 0s infinite normal forwards;*/
   /*animation: jump 5s linear 0s infinite normal forwards;*/
