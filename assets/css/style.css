@@ -1465,7 +1465,7 @@ th {
   margin: 20px 0px;
 }
 
- .banner-section .banner-mobile {
+/* .banner-section .banner-mobile {
   background: url(../img/mobile-backdrop.png) no-repeat;
   background-size: contain;
   margin-top: -97px;
@@ -1473,7 +1473,7 @@ th {
 
 .banner-section .banner-mobile img {
   padding-top: 28px;
-}
+}*/
 .banner-section .banner-right img {
   /*-webkit-animation: jump 5s linear 0s infinite normal forwards;*/
   /*animation: jump 5s linear 0s infinite normal forwards;*/
@@ -2000,7 +2000,7 @@ th {
   z-index: 100;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 812px) {
   .banner-right .img-thumbnail {
     z-index: 1;
   }
@@ -2035,7 +2035,21 @@ th {
 
 }
 
-@media (max-width: 600px) {
+/*@media (max-width: 667px) {
+  .banner-desktop {
+    display: none;
+  }
+
+  .banner-mobile {
+    display: block;
+  }
+
+  .banner-tab {
+    display: none;
+  }
+}*/
+
+@media (max-width: 667px) {
   .banner-desktop {
     display: none;
   }
@@ -2049,7 +2063,7 @@ th {
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 813px) {
   .banner-mobile {
     display: none;
   }
@@ -4301,6 +4315,11 @@ th {
   margin-bottom: 0;
   font-size: 40px;
   font-weight: 200;
+}
+
+#cinema-from-home {
+  font-size: 28px;
+  font-weight: 500;
 }
 
 @keyframes slide {
